@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.sidebar{
+  flex: 1;
+  border-right: 0.4px solid #FFF2E7;
+  min-height: 100vh;
+  max-width: 220px;
+}
+
+.top{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF2EF;
+  font-family: 'Righteous', cursive;
+  cursor: pointer;
+}
+
+.center{
+  border-top: 0.4px solid #FFF2E7;
+  padding-left: 20px;
+}
+
+.sidebar-item{
+  font-family: 'Sarala', sans-serif;
+  color: #2F2325;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.title{
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #fcf3ec;
+  margin-bottom: 5px;
+}
+
+.item-icon{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px;
+
+}
+
+.item-icon:hover{
+  background-color: #ecded4;
+}
+
+.bot{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.icon{
+  font-size: 18px;
+  color: rgb(214, 125, 125);
+}
+
+.top-icon{
+  font-size: 18px;
+  color: rgb(214, 125, 125);
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+.control-button{
+  background-color: transparent;
+  border: none;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+.bar-control{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 50%;
+}
+
+.bar-control:hover{
+  background-color: #ecded4;
+}

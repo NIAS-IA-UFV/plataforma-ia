@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.register-page {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #a96f62 16.62%, #f5bfb3 85.61%);
+}
+
+.register-main{
+  display: flex;
+  justify-content: center;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.register-central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 0 ;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.register-input{
+  padding: 15px;
+  border-radius: 20px;
+  border: 0.4px solid #FFF2E7;
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  font-weight: 200;
+  max-width: 600px;
+  min-width: 309px;
+}
+
+.register-button {
+  padding: 15px;
+  border: 0.4px solid #FFF2E7;
+  border-radius: 20px;
+  max-width: 600px;
+  background-color: #ECD6C4;
+  font-size: 24px;
+  font-weight: 200;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: #2F2325;
+  font-family: 'Righteous', cursive;
+  min-width: 309px;
+}
+
+.login-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Righteous', cursive;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.register-txt{
+  color: #ECD6C4;
+}
+
+.register-login-link{
+  color: #FFF2EF;
+}
+
+span{
+  color: red;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Sarala', sans-serif;
+}

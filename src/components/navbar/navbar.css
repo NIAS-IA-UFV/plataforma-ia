@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.search{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.search-bar{
+  padding: 15px;
+  border-radius: 35px;
+  border: 0.4px solid #FFF2E7;
+  width: 600px;
+  font-family: 'Sarala', san-serif;
+  font-size: 20px;
+}
+
+.search-icon{
+  font-size: 40px;
+  color: rgb(243, 228, 228);
+}

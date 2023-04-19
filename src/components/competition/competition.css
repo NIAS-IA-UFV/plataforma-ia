@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.competition{
+  display: flex;
+  background: #a96f62;
+}
+
+.competition-container{
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.competition-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.competition-title{
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #FFF2E7;
+  padding: 40px;
+
+}
+
+.competiton-container{
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.competition-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules {
+  font-family: "Righteous", cursive;
+  margin-top: 60px;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.competition-subtitle {
+  font-family: "Righteous", cursive;
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.entries-instructions {
+  font-family: "Sarala", sans-serif;
+  margin-top: 15px;
+  color: #FFF2E7;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.entries-subtitle{
+  font-family: "Righteous", cursive;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.intro{
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.entry-list{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-family: "Sarala", sans-serif;
+  font-size: 18px;
+}
+
+.entries{
+  margin-bottom: 50px;
+}
+
+.footer-comp{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-text{
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #FFF2E7;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-comp-button{
+  background-color: #ECD6C4;
+  border: none;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  font-size: 20px;
+  color: #2F2325;
+  cursor: pointer;
+  margin-bottom: 30px;
+}

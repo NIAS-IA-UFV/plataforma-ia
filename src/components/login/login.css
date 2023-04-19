@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.login-page {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #a96f62 16.62%, #f5bfb3 85.61%);
+}
+
+
+.central {
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.form-content{
+  margin: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.input {
+  padding: 15px;
+  border: 0.4px solid #FFF2E7;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Righteous', cursive;
+  max-width: 600px;
+  min-width: 309px;
+
+}
+
+span{
+  color: red;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Sarala', sans-serif;
+}
+
+.login-button {
+  padding: 15px;
+  border: 0.4px solid #FFF2E7;
+  border-radius: 20px;
+  max-width: 600px;
+  background-color: #ECD6C4;
+  font-size: 24px;
+  font-weight: 200;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: #2F2325;
+  font-family: 'Righteous', cursive;
+  min-width: 309px;
+}
+
+.register-link {
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+
+}
+
+.bot-login-txt{
+  color: #ECD6C4;
+}
+
+.register-tag{
+  color: #FFF2EF;
+}
